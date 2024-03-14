@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Flex ou Grid</title>
+            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      </head>
+      <body>
+            <header class="header-flex">
+                  <h1>Flex <span class="blue">ou</span> Grid ?</h1>
+            </header>
+            <main>
+                  <section class="exercise">
+                        <h1>Atelier 1: <span class="blue">barre de navigation</span></h1>
+                        <nav class="navbar">
+                              <h2 class="logo">LOGO</h2>
+                              <ul class="nav-links">
+                                  <li><a href="#">Home</a></li>
+                                  <li><a href="#">Projects</a></li>
+                                  <li><a href="#">Contact</a></li>
+                              </ul>
+                        </nav>
+                        <div class="exercise-choice">
+                              <h2>Le choix: <span>Flexbox ou Grid</span></h2>
+                              <p>Justification: <span>Flexbox est plus pratique pour des dispositions linéaire, comme une navbar dans le cas présent, il facilite le centrage vertical et horizontal avec justify-content et align-items.</span></p>
+                        </div>
+                  </section>
+                  <section class="exercise">
+                        <h1>Atelier 2: <span class="blue">section</span></h1>
+                        <div class="section">
+                              <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fox">
+                                    <div class="card-content">
+                                          <p>Lorem ipsum dolor sit amet consectetur. <span class="blue">In volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus...</p>
+                                          <div class="card-footer">
+                                                <h3>Le renard</h3>
+                                                <span>+</span>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1497206365907-f5e630693df0?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="flamingo">
+                                    <div class="card-content">
+                                          <p>Lorem ipsum dolor sit amet consectetur. <span class="blue">In volutpat</span> magna lectus mauris.</p>
+                                          <div class="card-footer">
+                                                <h3>Le flamand-rose</h3>
+                                                <span>+</span>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tiger">
+                                    <div class="card-content">
+                                          <p>Lorem ipsum dolor sit amet consectetur. <span class="blue">In volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus....</p>
+                                          <div class="card-footer">
+                                                <h3>Le tigre</h3>
+                                                <span>+</span>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="turtle">
+                                    <div class="card-content">
+                                          <p>Lorem ipsum dolor sit amet consectetur. <span class="blue">In volutpat</span> magna lectus mauris. Quisque ultrices volutpat.</p>
+                                          <div class="card-footer">
+                                                <h3>La tortue</h3>
+                                                <span>+</span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="exercise-choice">
+                              <h2>Le choix: <span>Flexbox ou Grid</span></h2>
+                              <p>Justification: <span>Flexbox est plus pratique dans ce cas également, où les cards n'ont pas de tailles variables, flexbox offre la possibliter d'aligner et centrer des éléments facilement et permet aussi de réorganiser l'affichage des cards si on pense au responsive design.</span></p>
+                        </div>
+                  </section>
+                  <section class="exercise">
+                        <h1>Atelier 3: <span class="blue">gallery</span></h1>
+                        <div class="gallery">
+                              <div class="one"><img src="images/grid-1.jpg" alt="grid-1"></div>
+                              <div class="two"><img src="images/grid-2.jpg" alt="grid-2"></div>
+                              <div class="three"><img src="images/grid-3.jpg" alt="grid-3"></div>
+                              <div class="four"><img src="images/grid-4.jpg" alt="grid-4"></div>
+                              <div class="five"><img src="images/grid-5.jpg" alt="grid-5"></div>
+                              <div class="six"><img src="images/grid-6.jpg" alt="grid-6"></div>
+                              <div class="seven"><img src="images/grid-7.jpg" alt="grid-7"></div>
+                              <div class="eight"><img src="images/grid-8.jpg" alt="grid-8"></div>
+                              <div class="nine"><img src="images/grid-9.jpg" alt="grid-9"></div>
+                              <div class="ten"><img src="images/grid-10.jpg" alt="grid-10"></div>
+                              <div class="eleven"><img src="images/grid-11.jpg" alt="grid-11"></div>
+                              <div class="twelve"><img src="images/grid-12.jpg" alt="grid-12"></div>
+                              <div class="thirteen"><img src="images/grid-13.jpg" alt="grid-13"></div>
+                              <div class="forteen"><img src="images/grid-14.jpg" alt="grid-14"></div>
+                              <div class="fifteen"><img src="images/grid-15.jpg" alt="grid-15"></div>
+                        </div>
+                        <div class="exercise-choice">
+                              <h2>Le choix: <span>Flexbox ou Grid</span></h2>
+                              <p>Justification: <span>Grid est plus addapté à ce cas de figure car grille plus complexe avec tailles des cards variables, permet un contrôle plus précis sur les colonnes et les rows</span></p>
+                        </div>
+                  </section>
+                  <section class="exercise">
+                        <h1>Atelier 4: <span class="blue">cards</span></h1>
+                        <div class="cards">
+                              <div class="card-left">
+                                    <div class="card-container">
+                                          <div class="card-title">
+                                                Services
+                                          </div>
+                                          <div class="card-main">
+                                                <div class="card-row">
+                                                      <p>RH</p>
+                                                      <p>100h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>Stock</p>
+                                                      <p>40h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>Direction</p>
+                                                      <p>120h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>Commercial</p>
+                                                      <p>10h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>Client</p>
+                                                      <p>20h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>Commercial</p>
+                                                      <p>211h restantes</p>
+                                                </div>
+                                                <div class="card-row">
+                                                      <p>RH</p>
+                                                      <p>24h restantes</p>
+                                                </div>
+                                          </div>
+                                          <div class="card-button">
+                                                <p class="blue">7 résultats</p>
+                                                <button class="button-add">Ajouter un utilisateur</button>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="card-right">
+                                    <div class="card-container">
+                                          <div class="card-title">
+                                                Service: RH
+                                          </div>
+                                          <div class="card-mail">
+                                                <a href="mailto:rh@service.fr">rh@service.fr</a>
+                                                <span><i class="fa-solid fa-envelope"></i></span>
+                                          </div>
+                                          <div class="card-hour">
+                                                <p>100 heures restantes</p>
+                                                <span><i class="fa-solid fa-hourglass-start"></i></span>
+                                          </div>
+                                          <div class="card-button">
+                                                <button class="button-suppr">Supprimer</button>
+                                                <button class="button-add">Ajouter un utilisateur</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="exercise-choice">
+                              <h2>Le choix: <span>Flexbox ou Grid</span></h2>
+                              <p>Justification: <span>Utilisation de Grid pour le placement des cards et utilisation de Flexbox pour le placement des éléments à l'intérieur des cards</span></p>
+                        </div>
+                  </section>
+                  <section class="exercise">
+                        <h1>Atelier 5: <span class="blue">invoices</span></h1>
+                        <div class="invoices">
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">2000€</div>
+                                    <div class="order-status-paid">Payée</div>
+                              </div>
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">1300€</div>
+                                    <div class="order-status-waiting">En attente</div>
+                              </div>
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">1800€</div>
+                                    <div class="order-status-waiting">En attente</div>
+                              </div>
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">800€</div>
+                                    <div class="order-status-waiting">En attente</div>
+                              </div>
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">1600€</div>
+                                    <div class="order-status-paid">Payée</div>
+                              </div>
+                              <div class="invoices-card">
+                                    <div class="order-number">#RT4567</div>
+                                    <div class="order-date">19 Aout 2024</div>
+                                    <div class="order-price">1300€</div>
+                                    <div class="order-status-paid">Payée</div>
+                              </div>
+                        </div>
+                        <div class="exercise-choice">
+                              <h2>Le choix: <span>Flexbox ou Grid</span></h2>
+                              <p>Justification: <span>Utilisation de grid beaucoup plus utile pour les placements des cards en columns et en rows mais utilisation de Flexbox pour l'alignement et le positionnement des éléments à l'interieur des cards, plus simple à centrer et à aligner avec Flexbox.</span></p>
+                        </div>
+                  </section>
+            </main>
+            <footer class="footer"><h2>Exercices Flexbox / Grid <span class="blue">Cloud Campus</span></h2></footer>
+      </body>
+</html>
